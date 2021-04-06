@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Check live
+- [E-commerce](https://e-commerce-next-dotdott.vercel.app/)
 
-## Getting Started
+## About it
+- Mobile adaptable.
+- Cart bag with *Total price* & Items added + Bag amount.
+- Cart functionality to increase/decrease amount of products & clear bag button. 
+- Use of JSON file to save and find data from all products.
 
-First, run the development server:
+## Techs 
+- ReactJS;
+- Use of React Context API.
+- TypeScript;
+- NextJS to deployingment issues.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## install in ur machine
+- On a empty folder enter de followings:
+- ``git clone https://github.com/dotdott/E-Commerce-REACT.git``
+- rename the new folder that has been downloaded in your empty folder to all **lowercase**
+- in this case you could rename it to **e-commerce**, and then:
+- ``cd e-commerce``
+- ``npm i next react react-dom``
+- ``npm i typescript @types/react @types/node @types/react-dom --save-dev``
+- After it finishes you can start the app with ``yarn dev``
