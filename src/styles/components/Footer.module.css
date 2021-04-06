@@ -1,0 +1,30 @@
+.container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+}
+
+.container img {
+    width: 150px;
+}
+
+.container a {
+    text-decoration: none;
+    color: var(--red-blood);
+}
+
+.container p {
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 960px){
+    .container p {
+        width: 80%;
+    }
+}

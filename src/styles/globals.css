@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #ede7e3;
+  --dark-gray: #d3d0cb;
+  --white: #fbfffe;
+  --black: #02020a;
+  --red-blood:#A50104;
+  --red-dark: #590004;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}

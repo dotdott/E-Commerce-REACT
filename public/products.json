@@ -1,0 +1,67 @@
+{
+    "items": [{
+            "sys": { "id" : "1"},
+            "fields": {
+                "title": "Cadeira Gamer ThunderX3 BC3, Red - 67992",
+                "price": 450.00,
+                "image": { "url": "./products/cadeira-gamer.jpg"}
+            }
+        },
+        {
+            "sys": { "id" : "2"},
+            "fields": {
+                "title": "Kit Gamer Redragon - Teclado Mecânico Kumara, RGB, Switch Outemu Blue, PT + Mouse Cobra M711, Chroma, 10000DPI - S118",
+                "price": 120.49,
+                "image": { "url": "./products/kit-gamer.jpg"}
+            }
+        },  
+        {
+            "sys": { "id" : "3"},
+            "fields": {
+                "title": "Mouse Gamer Logitech G403 Hero 16k, RGB Lightsync, 6 Botões, 16000 DPI - 910-005631",
+                "price": 44.99,
+                "image": { "url": "./products/mouse-gamer.jpg"}
+            }
+        },     
+        {
+            "sys": { "id" : "4"},
+            "fields": {
+                "title": "Mousepad Gamer HyperX Fury S, Control, Extra Grande (900x420mm) - HX-MPFS-XL",
+                "price": 20.00,
+                "image": { "url": "./products/mouse-pad.jpg"}
+            }
+        },         
+        {
+            "sys": { "id" : "5"},
+            "fields": {
+                "title": "Teclado Mecânico Gamer HyperX Mars, RGB, Switch Outemu Blue, US - HX-KB3BL3-US/R4",
+                "price": 81.20,
+                "image": { "url": "./products/teclado-gamer.jpg"}
+            }
+        },  
+        {
+            "sys": { "id" : "6"},
+            "fields": {
+                "title": "Headset Gamer HyperX Cloud Stinger - HX-HSCS-BK/NA",
+                "price": 90.00,
+                "image": { "url": "./products/headset-1.jpg"}
+            }
+        },          
+        {
+            "sys": { "id" : "7"},
+            "fields": {
+                "title": "Headset Gamer HyperX Cloud Revolver S 7.1 Dolby Digital - HX-HSCRS-GM/NA",
+                "price": 229.99,
+                "image": { "url": "./products/headset-2.jpg"}
+            }
+        },     
+        {
+            "sys": { "id" : "8"},
+            "fields": {
+                "title": "Monitor Gamer Acer LED 23.6´ Full HD, HDMI/DisplayPort, Free Sync, 165Hz, 0.5ms, Inclinação Ajustável, Preto/Vermelho - KG241Q Sbiip",
+                "price": 450.00,
+                "image": { "url": "./products/monitor-gamer.jpg"}
+            }
+        }
+    ]
+}

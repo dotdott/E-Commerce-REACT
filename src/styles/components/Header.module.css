@@ -1,0 +1,87 @@
+.containerHead {
+    width: 100vw;
+    height: 92.9vh;
+    overflow: hidden;
+}
+ 
+.containerContent {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    background: rgba(255,255,255, 0.5);
+    padding: 2rem 6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerContent h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.containerContent button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+
+    cursor: pointer;
+    background: var(--red-blood);
+    color: var(--white);
+    border: 1px solid var(--red-dark);
+}
+
+.containerContent button:hover {
+    opacity: .8;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 1200px){
+    .containerContent {
+        left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    .containerContent{
+        left: 21%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .containerContent{
+        padding: 2rem 3rem;
+        left: 15%;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .containerContent h1{
+        font-size: 3.5rem;
+    }
+
+    .containerContent {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 382px){
+    .containerContent{
+        left: 20%;
+        padding: 1rem;
+    }
+
+    .containerContent h1 {
+        font-size: 2.5rem;
+    }
+
+    .containerContent button {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container img {
+    width: 150px;
+}
+
+.container button {
+    margin-top: 1rem;
+    width: 150px;
+    padding: .3rem;
+
+    background: var(--red-blood);
+    color: var(--light-gray);
+    border: 1px solid var(--red-blood);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.container button:hover {
+    opacity: .85;
+    transition: all .5s ease-in-out;
+}
